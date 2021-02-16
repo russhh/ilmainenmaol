@@ -121,3 +121,13 @@ header {
     font-size: 64px;
   }
 }
+
+@media screen and (max-width: 512px) {
+  .nav {
+    display: none;
+  }
+
+  .main_text {
+    font-size: 48px;
+  }
+}
