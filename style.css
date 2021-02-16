@@ -45,7 +45,7 @@ header {
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
-  font-size: 1.125em;
+  font-size: 18px;
   line-height: 125%;
   /* identical to box height, or 22px */
 
@@ -67,8 +67,8 @@ header {
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
-  font-size: 1.5em;
-  line-height: 2.25em;
+  font-size: 24px;
+  line-height: 125%;
 }
 
 .middle {
@@ -83,7 +83,7 @@ header {
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
-  font-size: 6em;
+  font-size: 96px;
   line-height: 125%;
   /* or 90px */
 
@@ -100,7 +100,7 @@ header {
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
-  font-size: 1.5em;
+  font-size: 24px;
   line-height: 125%;
   /* or 30px */
 
@@ -110,4 +110,14 @@ header {
   padding: 0.625em 1em;
   background: #00ff57;
   border-radius: 20px;
+}
+
+@media screen and (max-width: 700px) {
+  .nav {
+    display: none;
+  }
+
+  .main_text {
+    font-size: 64px;
+  }
 }
